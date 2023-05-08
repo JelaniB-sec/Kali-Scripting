@@ -1,0 +1,12 @@
+#!/bin/bash
+
+Red=$'\e[1;31m'
+Green=$'\e[;32m'
+BLue=$'\e[34m'
+
+while true
+do
+	clear
+	echo $BLue $(date +%T)
+	sleep 1s
+done
